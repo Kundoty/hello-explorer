@@ -2,3 +2,8 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    background-color: #2e2e2e; /* Dark gray color */
+    color: #ffffff; /* Optional: Set text color to white for better contrast */
+}
