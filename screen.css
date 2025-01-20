@@ -4,6 +4,41 @@ a.active {
 }
 
 body {
-    background-color: #2e2e2e; /* Dark gray color */
-    color: #ffffff; /* Optional: Set text color to white for better contrast */
+    background-color: #2e2e2e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-bottom: 3rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    margin: 0 20px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
